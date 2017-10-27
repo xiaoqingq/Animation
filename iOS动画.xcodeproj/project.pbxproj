@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26E2581F1F23371C00F91063 /* ComprehensiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E2581E1F23371C00F91063 /* ComprehensiveViewController.m */; };
+		26E258221F233EEE00F91063 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E258211F233EEE00F91063 /* UIColor+Hex.m */; };
+		26FC83101F21B34300C874BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FC830F1F21B34300C874BC /* main.m */; };
+		26FC83131F21B34300C874BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FC83121F21B34300C874BC /* AppDelegate.m */; };
+		26FC83161F21B34300C874BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FC83151F21B34300C874BC /* ViewController.m */; };
+		26FC83191F21B34300C874BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26FC83171F21B34300C874BC /* Main.storyboard */; };
+		26FC831B1F21B34300C874BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26FC831A1F21B34300C874BC /* Assets.xcassets */; };
+		26FC831E1F21B34300C874BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26FC831C1F21B34300C874BC /* LaunchScreen.storyboard */; };
+		26FC83291F21B34300C874BC /* iOS__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FC83281F21B34300C874BC /* iOS__Tests.m */; };
+		26FC83341F21B34400C874BC /* iOS__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FC83331F21B34400C874BC /* iOS__UITests.m */; };
+		26FC83421F21B3B500C874BC /* bear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26FC83411F21B3B500C874BC /* bear@2x.png */; };
+		26FC834C1F21D88300C874BC /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FC834A1F21D88300C874BC /* AnimationViewController.m */; };
+		26FC83531F21DC7F00C874BC /* AffineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FC83521F21DC7F00C874BC /* AffineViewController.m */; };
+		26FC835B1F21E51300C874BC /* CATransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FC835A1F21E51300C874BC /* CATransitionViewController.m */; };
+		26FC835E1F21EC7200C874BC /* KeyAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FC835D1F21EC7200C874BC /* KeyAnimationViewController.m */; };
+		26FC83611F21F5C400C874BC /* GroupAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FC83601F21F5C400C874BC /* GroupAnimationViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26FC83251F21B34300C874BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26FC83031F21B34300C874BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26FC830A1F21B34300C874BC;
+			remoteInfo = "iOS动画";
+		};
+		26FC83301F21B34400C874BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26FC83031F21B34300C874BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26FC830A1F21B34300C874BC;
+			remoteInfo = "iOS动画";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26E2581D1F23371C00F91063 /* ComprehensiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComprehensiveViewController.h; sourceTree = "<group>"; };
+		26E2581E1F23371C00F91063 /* ComprehensiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComprehensiveViewController.m; sourceTree = "<group>"; };
+		26E258201F233EEE00F91063 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		26E258211F233EEE00F91063 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		26FC830B1F21B34300C874BC /* iOS动画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS动画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26FC830F1F21B34300C874BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26FC83111F21B34300C874BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		26FC83121F21B34300C874BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		26FC83141F21B34300C874BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		26FC83151F21B34300C874BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		26FC83181F21B34300C874BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26FC831A1F21B34300C874BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26FC831D1F21B34300C874BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26FC831F1F21B34300C874BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26FC83241F21B34300C874BC /* iOS动画Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS动画Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26FC83281F21B34300C874BC /* iOS__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS__Tests.m; sourceTree = "<group>"; };
+		26FC832A1F21B34300C874BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26FC832F1F21B34400C874BC /* iOS动画UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS动画UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26FC83331F21B34400C874BC /* iOS__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS__UITests.m; sourceTree = "<group>"; };
+		26FC83351F21B34400C874BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26FC83411F21B3B500C874BC /* bear@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bear@2x.png"; sourceTree = "<group>"; };
+		26FC83491F21D88300C874BC /* AnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
+		26FC834A1F21D88300C874BC /* AnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
+		26FC83511F21DC7F00C874BC /* AffineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AffineViewController.h; sourceTree = "<group>"; };
+		26FC83521F21DC7F00C874BC /* AffineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AffineViewController.m; sourceTree = "<group>"; };
+		26FC83591F21E51300C874BC /* CATransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATransitionViewController.h; sourceTree = "<group>"; };
+		26FC835A1F21E51300C874BC /* CATransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATransitionViewController.m; sourceTree = "<group>"; };
+		26FC835C1F21EC7200C874BC /* KeyAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyAnimationViewController.h; sourceTree = "<group>"; };
+		26FC835D1F21EC7200C874BC /* KeyAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyAnimationViewController.m; sourceTree = "<group>"; };
+		26FC835F1F21F5C400C874BC /* GroupAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupAnimationViewController.h; sourceTree = "<group>"; };
+		26FC83601F21F5C400C874BC /* GroupAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupAnimationViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26FC83081F21B34300C874BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26FC83211F21B34300C874BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26FC832C1F21B34400C874BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26E2581C1F23369C00F91063 /* 开机动画 */ = {
+			isa = PBXGroup;
+			children = (
+				26E2581D1F23371C00F91063 /* ComprehensiveViewController.h */,
+				26E2581E1F23371C00F91063 /* ComprehensiveViewController.m */,
+				26E258201F233EEE00F91063 /* UIColor+Hex.h */,
+				26E258211F233EEE00F91063 /* UIColor+Hex.m */,
+			);
+			path = "开机动画";
+			sourceTree = "<group>";
+		};
+		26FC83021F21B34300C874BC = {
+			isa = PBXGroup;
+			children = (
+				26FC830D1F21B34300C874BC /* iOS动画 */,
+				26FC83271F21B34300C874BC /* iOS动画Tests */,
+				26FC83321F21B34400C874BC /* iOS动画UITests */,
+				26FC830C1F21B34300C874BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26FC830C1F21B34300C874BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26FC830B1F21B34300C874BC /* iOS动画.app */,
+				26FC83241F21B34300C874BC /* iOS动画Tests.xctest */,
+				26FC832F1F21B34400C874BC /* iOS动画UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26FC830D1F21B34300C874BC /* iOS动画 */ = {
+			isa = PBXGroup;
+			children = (
+				26FC83111F21B34300C874BC /* AppDelegate.h */,
+				26FC83121F21B34300C874BC /* AppDelegate.m */,
+				26FC83141F21B34300C874BC /* ViewController.h */,
+				26FC83151F21B34300C874BC /* ViewController.m */,
+				26E2581C1F23369C00F91063 /* 开机动画 */,
+				26FC83461F21D88300C874BC /* 关键帧动画 */,
+				26FC83581F21E51300C874BC /* 转场动画 */,
+				26FC83501F21DC7F00C874BC /* Affine动画 */,
+				26FC83481F21D88300C874BC /* 基础动画 */,
+				26FC834B1F21D88300C874BC /* 组动画 */,
+				26FC83411F21B3B500C874BC /* bear@2x.png */,
+				26FC83171F21B34300C874BC /* Main.storyboard */,
+				26FC831A1F21B34300C874BC /* Assets.xcassets */,
+				26FC831C1F21B34300C874BC /* LaunchScreen.storyboard */,
+				26FC831F1F21B34300C874BC /* Info.plist */,
+				26FC830E1F21B34300C874BC /* Supporting Files */,
+			);
+			path = "iOS动画";
+			sourceTree = "<group>";
+		};
+		26FC830E1F21B34300C874BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26FC830F1F21B34300C874BC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26FC83271F21B34300C874BC /* iOS动画Tests */ = {
+			isa = PBXGroup;
+			children = (
+				26FC83281F21B34300C874BC /* iOS__Tests.m */,
+				26FC832A1F21B34300C874BC /* Info.plist */,
+			);
+			path = "iOS动画Tests";
+			sourceTree = "<group>";
+		};
+		26FC83321F21B34400C874BC /* iOS动画UITests */ = {
+			isa = PBXGroup;
+			children = (
+				26FC83331F21B34400C874BC /* iOS__UITests.m */,
+				26FC83351F21B34400C874BC /* Info.plist */,
+			);
+			path = "iOS动画UITests";
+			sourceTree = "<group>";
+		};
+		26FC83461F21D88300C874BC /* 关键帧动画 */ = {
+			isa = PBXGroup;
+			children = (
+				26FC835C1F21EC7200C874BC /* KeyAnimationViewController.h */,
+				26FC835D1F21EC7200C874BC /* KeyAnimationViewController.m */,
+			);
+			path = "关键帧动画";
+			sourceTree = "<group>";
+		};
+		26FC83481F21D88300C874BC /* 基础动画 */ = {
+			isa = PBXGroup;
+			children = (
+				26FC83491F21D88300C874BC /* AnimationViewController.h */,
+				26FC834A1F21D88300C874BC /* AnimationViewController.m */,
+			);
+			path = "基础动画";
+			sourceTree = "<group>";
+		};
+		26FC834B1F21D88300C874BC /* 组动画 */ = {
+			isa = PBXGroup;
+			children = (
+				26FC835F1F21F5C400C874BC /* GroupAnimationViewController.h */,
+				26FC83601F21F5C400C874BC /* GroupAnimationViewController.m */,
+			);
+			path = "组动画";
+			sourceTree = "<group>";
+		};
+		26FC83501F21DC7F00C874BC /* Affine动画 */ = {
+			isa = PBXGroup;
+			children = (
+				26FC83511F21DC7F00C874BC /* AffineViewController.h */,
+				26FC83521F21DC7F00C874BC /* AffineViewController.m */,
+			);
+			path = "Affine动画";
+			sourceTree = "<group>";
+		};
+		26FC83581F21E51300C874BC /* 转场动画 */ = {
+			isa = PBXGroup;
+			children = (
+				26FC83591F21E51300C874BC /* CATransitionViewController.h */,
+				26FC835A1F21E51300C874BC /* CATransitionViewController.m */,
+			);
+			name = "转场动画";
+			path = "关键帧动画/转场动画";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26FC830A1F21B34300C874BC /* iOS动画 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26FC83381F21B34400C874BC /* Build configuration list for PBXNativeTarget "iOS动画" */;
+			buildPhases = (
+				26FC83071F21B34300C874BC /* Sources */,
+				26FC83081F21B34300C874BC /* Frameworks */,
+				26FC83091F21B34300C874BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS动画";
+			productName = "iOS动画";
+			productReference = 26FC830B1F21B34300C874BC /* iOS动画.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26FC83231F21B34300C874BC /* iOS动画Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26FC833B1F21B34400C874BC /* Build configuration list for PBXNativeTarget "iOS动画Tests" */;
+			buildPhases = (
+				26FC83201F21B34300C874BC /* Sources */,
+				26FC83211F21B34300C874BC /* Frameworks */,
+				26FC83221F21B34300C874BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26FC83261F21B34300C874BC /* PBXTargetDependency */,
+			);
+			name = "iOS动画Tests";
+			productName = "iOS动画Tests";
+			productReference = 26FC83241F21B34300C874BC /* iOS动画Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26FC832E1F21B34400C874BC /* iOS动画UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26FC833E1F21B34400C874BC /* Build configuration list for PBXNativeTarget "iOS动画UITests" */;
+			buildPhases = (
+				26FC832B1F21B34400C874BC /* Sources */,
+				26FC832C1F21B34400C874BC /* Frameworks */,
+				26FC832D1F21B34400C874BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26FC83311F21B34400C874BC /* PBXTargetDependency */,
+			);
+			name = "iOS动画UITests";
+			productName = "iOS动画UITests";
+			productReference = 26FC832F1F21B34400C874BC /* iOS动画UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26FC83031F21B34300C874BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = zhangxiaoqing;
+				TargetAttributes = {
+					26FC830A1F21B34300C874BC = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 3Y857G3VXH;
+						ProvisioningStyle = Automatic;
+					};
+					26FC83231F21B34300C874BC = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 3Y857G3VXH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 26FC830A1F21B34300C874BC;
+					};
+					26FC832E1F21B34400C874BC = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 3Y857G3VXH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 26FC830A1F21B34300C874BC;
+					};
+				};
+			};
+			buildConfigurationList = 26FC83061F21B34300C874BC /* Build configuration list for PBXProject "iOS动画" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26FC83021F21B34300C874BC;
+			productRefGroup = 26FC830C1F21B34300C874BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26FC830A1F21B34300C874BC /* iOS动画 */,
+				26FC83231F21B34300C874BC /* iOS动画Tests */,
+				26FC832E1F21B34400C874BC /* iOS动画UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26FC83091F21B34300C874BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26FC831E1F21B34300C874BC /* LaunchScreen.storyboard in Resources */,
+				26FC831B1F21B34300C874BC /* Assets.xcassets in Resources */,
+				26FC83421F21B3B500C874BC /* bear@2x.png in Resources */,
+				26FC83191F21B34300C874BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26FC83221F21B34300C874BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26FC832D1F21B34400C874BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26FC83071F21B34300C874BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26FC83161F21B34300C874BC /* ViewController.m in Sources */,
+				26E258221F233EEE00F91063 /* UIColor+Hex.m in Sources */,
+				26FC83531F21DC7F00C874BC /* AffineViewController.m in Sources */,
+				26FC83131F21B34300C874BC /* AppDelegate.m in Sources */,
+				26FC83101F21B34300C874BC /* main.m in Sources */,
+				26FC835E1F21EC7200C874BC /* KeyAnimationViewController.m in Sources */,
+				26E2581F1F23371C00F91063 /* ComprehensiveViewController.m in Sources */,
+				26FC83611F21F5C400C874BC /* GroupAnimationViewController.m in Sources */,
+				26FC834C1F21D88300C874BC /* AnimationViewController.m in Sources */,
+				26FC835B1F21E51300C874BC /* CATransitionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26FC83201F21B34300C874BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26FC83291F21B34300C874BC /* iOS__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26FC832B1F21B34400C874BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26FC83341F21B34400C874BC /* iOS__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26FC83261F21B34300C874BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26FC830A1F21B34300C874BC /* iOS动画 */;
+			targetProxy = 26FC83251F21B34300C874BC /* PBXContainerItemProxy */;
+		};
+		26FC83311F21B34400C874BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26FC830A1F21B34300C874BC /* iOS动画 */;
+			targetProxy = 26FC83301F21B34400C874BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26FC83171F21B34300C874BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26FC83181F21B34300C874BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26FC831C1F21B34300C874BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26FC831D1F21B34300C874BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26FC83361F21B34400C874BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26FC83371F21B34400C874BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26FC83391F21B34400C874BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3Y857G3VXH;
+				INFOPLIST_FILE = "iOS动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "qing.iOS--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		26FC833A1F21B34400C874BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3Y857G3VXH;
+				INFOPLIST_FILE = "iOS动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "qing.iOS--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		26FC833C1F21B34400C874BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3Y857G3VXH;
+				INFOPLIST_FILE = "iOS动画Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "qing.iOS--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS动画.app/iOS动画";
+			};
+			name = Debug;
+		};
+		26FC833D1F21B34400C874BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3Y857G3VXH;
+				INFOPLIST_FILE = "iOS动画Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "qing.iOS--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS动画.app/iOS动画";
+			};
+			name = Release;
+		};
+		26FC833F1F21B34400C874BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3Y857G3VXH;
+				INFOPLIST_FILE = "iOS动画UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "qing.iOS--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS动画";
+			};
+			name = Debug;
+		};
+		26FC83401F21B34400C874BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3Y857G3VXH;
+				INFOPLIST_FILE = "iOS动画UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "qing.iOS--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS动画";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26FC83061F21B34300C874BC /* Build configuration list for PBXProject "iOS动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FC83361F21B34400C874BC /* Debug */,
+				26FC83371F21B34400C874BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26FC83381F21B34400C874BC /* Build configuration list for PBXNativeTarget "iOS动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FC83391F21B34400C874BC /* Debug */,
+				26FC833A1F21B34400C874BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26FC833B1F21B34400C874BC /* Build configuration list for PBXNativeTarget "iOS动画Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FC833C1F21B34400C874BC /* Debug */,
+				26FC833D1F21B34400C874BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26FC833E1F21B34400C874BC /* Build configuration list for PBXNativeTarget "iOS动画UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FC833F1F21B34400C874BC /* Debug */,
+				26FC83401F21B34400C874BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26FC83031F21B34300C874BC /* Project object */;
+}
